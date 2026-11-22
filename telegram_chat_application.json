@@ -1,0 +1,50 @@
+{
+  "name": "telegram_chat_application",
+  "nodes": [
+    {
+      "parameters": {
+        "updates": [
+          "message"
+        ],
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.telegramTrigger",
+      "typeVersion": 1.5,
+      "position": [
+        -416,
+        -16
+      ],
+      "id": "f75914d8-699d-4d94-98d8-cfbd4b9c4b19",
+      "name": "Telegram Trigger",
+      "webhookId": "309e4cc9-2231-417f-8fdc-2e105abb077e",
+      "credentials": {
+        "telegramApi": {
+          "id": "VmpMSbC1d70h2SRw",
+          "name": "Telegram account 3"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Telegram Trigger": {
+      "main": [
+        []
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "34d3f4d2-e03a-40e6-8767-16fa61e157a9",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "a589223cd4955af8f892c69b2c5b2a965a78980d109702b0c6f7c991b415b56f"
+  },
+  "nodeGroups": [],
+  "id": "y3jEbF1ohalXuwlQ",
+  "tags": []
+}
